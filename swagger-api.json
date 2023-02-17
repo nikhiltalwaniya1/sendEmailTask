@@ -1,0 +1,310 @@
+{
+  "openapi": "3.0.2",
+  "info": {
+    "version": "1.0.0",
+    "title": "Upload CSV",
+    "description": "Upload CSV"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:243"
+    }
+  ],
+  "security": [
+    {
+      "bearerAuth": []
+    }
+  ],
+  "paths": {
+    "/createUser": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Create User",
+        "description": "Create User",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "required": [
+                  "contentType"
+                ],
+                "properties": {
+                  "email": {
+                    "type": "string",
+                    "default": "email"
+                  },
+                  "password": {
+                    "type": "string",
+                    "default": "password"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Create User",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "integer",
+                      "description": "1 for success 0 for failure"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "message to be displayed in alert"
+                    },
+                    "data": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/getCSVlist/{perPage}/{limit}": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "description": "Get All the CSV list",
+        "summary": "All the adv CSV list",
+        "parameters": [
+          {
+            "name": "perPage",
+            "in": "path",
+            "required": true,
+            "type": "integer"
+          },
+          {
+            "name": "limit",
+            "in": "path",
+            "required": true,
+            "type": "integer"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "csv list response ",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "integer",
+                      "description": "1 for success 0 for failure"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "message to be displayed in alert"
+                    },
+                    "data": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/importCSV/{userId}": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "summary": "Upload CSV",
+        "consumes": [
+          "multipart/form-data"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "query",
+            "description": "userId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "file": {
+                    "type": "string",
+                    "format": "binary",
+                    "required": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "integer",
+                      "description": "1 for success 0 for failure"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "message to be displayed in alert"
+                    },
+                    "data": {
+                      "type": "string",
+                      "description": "image file path"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sendEmail": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "summary": "send Email",
+        "description": "send Email",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "required": [
+                  "contentType"
+                ],
+                "properties": {
+                  "sendEmails": {
+                    "type": "Array",
+                    "default": "email of array"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "send email response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "integer",
+                      "description": "1 for success 0 for failure"
+                    },
+                    "message": {
+                      "type": "string",
+                      "description": "message to be displayed in alert"
+                    },
+                    "data": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "unexpected error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    },
+    "schemas": {
+      "Error": {
+        "required": [
+          "status",
+          "message"
+        ],
+        "type": "object",
+        "properties": {
+          "status": {
+            "type": "integer",
+            "description": "1 for success 0 for failure"
+          },
+          "message": {
+            "type": "string",
+            "description": "message to be displayed in alert"
+          }
+        }
+      }
+    }
+  }
+}

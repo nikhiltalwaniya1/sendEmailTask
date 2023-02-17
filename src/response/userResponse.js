@@ -1,0 +1,8 @@
+const utils = require("../service/utils")
+module.exports = class {
+  constructor(instance) {
+    this.id = instance.id ? instance.id : ''
+    this.email = instance.email ? instance.email : ''
+    this.token = instance.token ? instance.token : ''
+  }
+}

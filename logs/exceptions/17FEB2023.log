@@ -1,0 +1,1666 @@
+17-02-2023 11:02:30 PM error: uncaughtException: Unexpected token ','
+E:\Dummy Projects\pro13feb\src\service\email\email.js:19
+      to: ,
+          ^
+
+SyntaxError: Unexpected token ','
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1084:15)
+    at Module._compile (node:internal/modules/cjs/loader:1119:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\Dummy Projects\pro13feb\src\service\email\emailTemp.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\Dummy Projects\pro13feb\src\api\user\userController.js:11:19)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18) {
+  "error": {},
+  "stack": "E:\\Dummy Projects\\pro13feb\\src\\service\\email\\email.js:19\n      to: ,\n          ^\n\nSyntaxError: Unexpected token ','\n    at Object.compileFunction (node:vm:360:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1084:15)\n    at Module._compile (node:internal/modules/cjs/loader:1119:27)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\Dummy Projects\\pro13feb\\src\\service\\email\\emailTemp.js:3:15)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userController.js:11:19)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)",
+  "exception": true,
+  "date": "Fri Feb 17 2023 23:02:30 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 8236,
+    "uid": null,
+    "gid": null,
+    "cwd": "E:\\Dummy Projects\\pro13feb",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v16.18.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "E:\\Dummy Projects\\pro13feb\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 68308992,
+      "heapTotal": 57069568,
+      "heapUsed": 27223128,
+      "external": 21148088,
+      "arrayBuffers": 19201052
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 31230
+  },
+  "trace": [
+    {
+      "column": 18,
+      "file": "node:vm",
+      "function": "Object.compileFunction",
+      "line": 360,
+      "method": "compileFunction",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapSafe",
+      "line": 1084,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1119,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 868,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "E:\\Dummy Projects\\pro13feb\\src\\service\\email\\emailTemp.js",
+      "function": null,
+      "line": 3,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1155,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 868,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userController.js",
+      "function": null,
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1155,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 868,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+17-02-2023 11:03:07 PM error: uncaughtException: Unexpected token ','
+E:\Dummy Projects\pro13feb\src\service\email\email.js:19
+      to: ,
+          ^
+
+SyntaxError: Unexpected token ','
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1084:15)
+    at Module._compile (node:internal/modules/cjs/loader:1119:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\Dummy Projects\pro13feb\src\service\email\emailTemp.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\Dummy Projects\pro13feb\src\api\user\userController.js:11:19)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18) {
+  "error": {},
+  "stack": "E:\\Dummy Projects\\pro13feb\\src\\service\\email\\email.js:19\n      to: ,\n          ^\n\nSyntaxError: Unexpected token ','\n    at Object.compileFunction (node:vm:360:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1084:15)\n    at Module._compile (node:internal/modules/cjs/loader:1119:27)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\Dummy Projects\\pro13feb\\src\\service\\email\\emailTemp.js:3:15)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userController.js:11:19)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)",
+  "exception": true,
+  "date": "Fri Feb 17 2023 23:03:07 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 9284,
+    "uid": null,
+    "gid": null,
+    "cwd": "E:\\Dummy Projects\\pro13feb",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v16.18.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "E:\\Dummy Projects\\pro13feb\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 67723264,
+      "heapTotal": 57069568,
+      "heapUsed": 27204520,
+      "external": 21118640,
+      "arrayBuffers": 18422105
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 31266
+  },
+  "trace": [
+    {
+      "column": 18,
+      "file": "node:vm",
+      "function": "Object.compileFunction",
+      "line": 360,
+      "method": "compileFunction",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapSafe",
+      "line": 1084,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1119,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 868,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "E:\\Dummy Projects\\pro13feb\\src\\service\\email\\emailTemp.js",
+      "function": null,
+      "line": 3,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1155,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 868,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userController.js",
+      "function": null,
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1155,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 868,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+17-02-2023 11:03:10 PM error: uncaughtException: Unexpected token ','
+E:\Dummy Projects\pro13feb\src\service\email\email.js:19
+      to: ,
+          ^
+
+SyntaxError: Unexpected token ','
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1084:15)
+    at Module._compile (node:internal/modules/cjs/loader:1119:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\Dummy Projects\pro13feb\src\service\email\emailTemp.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\Dummy Projects\pro13feb\src\api\user\userController.js:11:19)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18) {
+  "error": {},
+  "stack": "E:\\Dummy Projects\\pro13feb\\src\\service\\email\\email.js:19\n      to: ,\n          ^\n\nSyntaxError: Unexpected token ','\n    at Object.compileFunction (node:vm:360:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1084:15)\n    at Module._compile (node:internal/modules/cjs/loader:1119:27)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\Dummy Projects\\pro13feb\\src\\service\\email\\emailTemp.js:3:15)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userController.js:11:19)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)",
+  "exception": true,
+  "date": "Fri Feb 17 2023 23:03:10 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 5540,
+    "uid": null,
+    "gid": null,
+    "cwd": "E:\\Dummy Projects\\pro13feb",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v16.18.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "E:\\Dummy Projects\\pro13feb\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 67604480,
+      "heapTotal": 57331712,
+      "heapUsed": 27297856,
+      "external": 21088131,
+      "arrayBuffers": 18450956
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 31270
+  },
+  "trace": [
+    {
+      "column": 18,
+      "file": "node:vm",
+      "function": "Object.compileFunction",
+      "line": 360,
+      "method": "compileFunction",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapSafe",
+      "line": 1084,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1119,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 868,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "E:\\Dummy Projects\\pro13feb\\src\\service\\email\\emailTemp.js",
+      "function": null,
+      "line": 3,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1155,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 868,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userController.js",
+      "function": null,
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1155,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 868,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+17-02-2023 11:03:17 PM error: uncaughtException: Unexpected token ','
+E:\Dummy Projects\pro13feb\src\service\email\email.js:19
+      to: ,
+          ^
+
+SyntaxError: Unexpected token ','
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1084:15)
+    at Module._compile (node:internal/modules/cjs/loader:1119:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\Dummy Projects\pro13feb\src\service\email\emailTemp.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\Dummy Projects\pro13feb\src\api\user\userController.js:11:19)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18) {
+  "error": {},
+  "stack": "E:\\Dummy Projects\\pro13feb\\src\\service\\email\\email.js:19\n      to: ,\n          ^\n\nSyntaxError: Unexpected token ','\n    at Object.compileFunction (node:vm:360:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1084:15)\n    at Module._compile (node:internal/modules/cjs/loader:1119:27)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\Dummy Projects\\pro13feb\\src\\service\\email\\emailTemp.js:3:15)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userController.js:11:19)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)",
+  "exception": true,
+  "date": "Fri Feb 17 2023 23:03:17 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 4604,
+    "uid": null,
+    "gid": null,
+    "cwd": "E:\\Dummy Projects\\pro13feb",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v16.18.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "E:\\Dummy Projects\\pro13feb\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 68415488,
+      "heapTotal": 57069568,
+      "heapUsed": 27415552,
+      "external": 21140077,
+      "arrayBuffers": 19374360
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 31277
+  },
+  "trace": [
+    {
+      "column": 18,
+      "file": "node:vm",
+      "function": "Object.compileFunction",
+      "line": 360,
+      "method": "compileFunction",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapSafe",
+      "line": 1084,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1119,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 868,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "E:\\Dummy Projects\\pro13feb\\src\\service\\email\\emailTemp.js",
+      "function": null,
+      "line": 3,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1155,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 868,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userController.js",
+      "function": null,
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1155,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 868,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+17-02-2023 11:03:34 PM error: uncaughtException: Unexpected token ','
+E:\Dummy Projects\pro13feb\src\service\email\email.js:19
+      to: ,
+          ^
+
+SyntaxError: Unexpected token ','
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1084:15)
+    at Module._compile (node:internal/modules/cjs/loader:1119:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\Dummy Projects\pro13feb\src\service\email\emailTemp.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\Dummy Projects\pro13feb\src\api\user\userController.js:11:19)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18) {
+  "error": {},
+  "stack": "E:\\Dummy Projects\\pro13feb\\src\\service\\email\\email.js:19\n      to: ,\n          ^\n\nSyntaxError: Unexpected token ','\n    at Object.compileFunction (node:vm:360:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1084:15)\n    at Module._compile (node:internal/modules/cjs/loader:1119:27)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\Dummy Projects\\pro13feb\\src\\service\\email\\emailTemp.js:3:15)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userController.js:11:19)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)",
+  "exception": true,
+  "date": "Fri Feb 17 2023 23:03:33 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 124,
+    "uid": null,
+    "gid": null,
+    "cwd": "E:\\Dummy Projects\\pro13feb",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v16.18.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "E:\\Dummy Projects\\pro13feb\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 67584000,
+      "heapTotal": 57069568,
+      "heapUsed": 27171312,
+      "external": 21124291,
+      "arrayBuffers": 18430297
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 31293
+  },
+  "trace": [
+    {
+      "column": 18,
+      "file": "node:vm",
+      "function": "Object.compileFunction",
+      "line": 360,
+      "method": "compileFunction",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapSafe",
+      "line": 1084,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1119,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 868,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "E:\\Dummy Projects\\pro13feb\\src\\service\\email\\emailTemp.js",
+      "function": null,
+      "line": 3,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1155,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 868,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userController.js",
+      "function": null,
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1155,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 868,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+17-02-2023 11:03:37 PM error: uncaughtException: Unexpected token ','
+E:\Dummy Projects\pro13feb\src\service\email\email.js:19
+      to: ,
+          ^
+
+SyntaxError: Unexpected token ','
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1084:15)
+    at Module._compile (node:internal/modules/cjs/loader:1119:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\Dummy Projects\pro13feb\src\service\email\emailTemp.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\Dummy Projects\pro13feb\src\api\user\userController.js:11:19)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18) {
+  "error": {},
+  "stack": "E:\\Dummy Projects\\pro13feb\\src\\service\\email\\email.js:19\n      to: ,\n          ^\n\nSyntaxError: Unexpected token ','\n    at Object.compileFunction (node:vm:360:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1084:15)\n    at Module._compile (node:internal/modules/cjs/loader:1119:27)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\Dummy Projects\\pro13feb\\src\\service\\email\\emailTemp.js:3:15)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userController.js:11:19)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)",
+  "exception": true,
+  "date": "Fri Feb 17 2023 23:03:37 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 1632,
+    "uid": null,
+    "gid": null,
+    "cwd": "E:\\Dummy Projects\\pro13feb",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v16.18.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "E:\\Dummy Projects\\pro13feb\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 67551232,
+      "heapTotal": 57069568,
+      "heapUsed": 27218264,
+      "external": 21129309,
+      "arrayBuffers": 18430297
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 31296
+  },
+  "trace": [
+    {
+      "column": 18,
+      "file": "node:vm",
+      "function": "Object.compileFunction",
+      "line": 360,
+      "method": "compileFunction",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapSafe",
+      "line": 1084,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1119,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 868,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "E:\\Dummy Projects\\pro13feb\\src\\service\\email\\emailTemp.js",
+      "function": null,
+      "line": 3,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1155,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 868,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userController.js",
+      "function": null,
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1155,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 868,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    }
+  ]
+}
+17-02-2023 11:03:43 PM error: uncaughtException: Unexpected token ','
+E:\Dummy Projects\pro13feb\src\service\email\email.js:19
+      to: ,
+          ^
+
+SyntaxError: Unexpected token ','
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1084:15)
+    at Module._compile (node:internal/modules/cjs/loader:1119:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\Dummy Projects\pro13feb\src\service\email\emailTemp.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\Dummy Projects\pro13feb\src\api\user\userController.js:11:19)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18) {
+  "error": {},
+  "stack": "E:\\Dummy Projects\\pro13feb\\src\\service\\email\\email.js:19\n      to: ,\n          ^\n\nSyntaxError: Unexpected token ','\n    at Object.compileFunction (node:vm:360:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1084:15)\n    at Module._compile (node:internal/modules/cjs/loader:1119:27)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\Dummy Projects\\pro13feb\\src\\service\\email\\emailTemp.js:3:15)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userController.js:11:19)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)",
+  "exception": true,
+  "date": "Fri Feb 17 2023 23:03:43 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 6168,
+    "uid": null,
+    "gid": null,
+    "cwd": "E:\\Dummy Projects\\pro13feb",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v16.18.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "E:\\Dummy Projects\\pro13feb\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 66981888,
+      "heapTotal": 56291328,
+      "heapUsed": 26314600,
+      "external": 21072352,
+      "arrayBuffers": 18442764
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 31303
+  },
+  "trace": [
+    {
+      "column": 18,
+      "file": "node:vm",
+      "function": "Object.compileFunction",
+      "line": 360,
+      "method": "compileFunction",
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "wrapSafe",
+      "line": 1084,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1119,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 868,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "E:\\Dummy Projects\\pro13feb\\src\\service\\email\\emailTemp.js",
+      "function": null,
+      "line": 3,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1155,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 868,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userController.js",
+      "function": null,
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1155,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 868,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    }
+  ]
+}

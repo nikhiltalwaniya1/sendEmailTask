@@ -1,0 +1,759 @@
+16-02-2023 11:48:31 PM error: uncaughtException: Cannot find module '../../../../logger'
+Require stack:
+- E:\Dummy Projects\pro13feb\src\service\email\emailTemp.js
+- E:\Dummy Projects\pro13feb\src\api\user\userController.js
+- E:\Dummy Projects\pro13feb\src\api\user\userRoute.js
+- E:\Dummy Projects\pro13feb\app.js
+Error: Cannot find module '../../../../logger'
+Require stack:
+- E:\Dummy Projects\pro13feb\src\service\email\emailTemp.js
+- E:\Dummy Projects\pro13feb\src\api\user\userController.js
+- E:\Dummy Projects\pro13feb\src\api\user\userRoute.js
+- E:\Dummy Projects\pro13feb\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:985:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:833:27)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\Dummy Projects\pro13feb\src\service\email\emailTemp.js:2:16)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\Dummy Projects\pro13feb\src\api\user\userController.js:11:19)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\Dummy Projects\pro13feb\src\api\user\userRoute.js:4:24)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "E:\\Dummy Projects\\pro13feb\\src\\service\\email\\emailTemp.js",
+      "E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userController.js",
+      "E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userRoute.js",
+      "E:\\Dummy Projects\\pro13feb\\app.js"
+    ]
+  },
+  "stack": "Error: Cannot find module '../../../../logger'\nRequire stack:\n- E:\\Dummy Projects\\pro13feb\\src\\service\\email\\emailTemp.js\n- E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userController.js\n- E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userRoute.js\n- E:\\Dummy Projects\\pro13feb\\app.js\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:985:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:833:27)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\Dummy Projects\\pro13feb\\src\\service\\email\\emailTemp.js:2:16)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userController.js:11:19)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userRoute.js:4:24)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)",
+  "exception": true,
+  "date": "Thu Feb 16 2023 23:48:31 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 9496,
+    "uid": null,
+    "gid": null,
+    "cwd": "E:\\Dummy Projects\\pro13feb",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v16.18.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "E:\\Dummy Projects\\pro13feb\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 65699840,
+      "heapTotal": 56291328,
+      "heapUsed": 26296824,
+      "external": 20995391,
+      "arrayBuffers": 18383177
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 3436
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 985,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 833,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "E:\\Dummy Projects\\pro13feb\\src\\service\\email\\emailTemp.js",
+      "function": null,
+      "line": 2,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1155,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 868,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userController.js",
+      "function": null,
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1155,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 868,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userRoute.js",
+      "function": null,
+      "line": 4,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1155,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+16-02-2023 11:48:59 PM error: uncaughtException: Cannot find module '../../../../logger'
+Require stack:
+- E:\Dummy Projects\pro13feb\src\service\email\emailTemp.js
+- E:\Dummy Projects\pro13feb\src\api\user\userController.js
+- E:\Dummy Projects\pro13feb\src\api\user\userRoute.js
+- E:\Dummy Projects\pro13feb\app.js
+Error: Cannot find module '../../../../logger'
+Require stack:
+- E:\Dummy Projects\pro13feb\src\service\email\emailTemp.js
+- E:\Dummy Projects\pro13feb\src\api\user\userController.js
+- E:\Dummy Projects\pro13feb\src\api\user\userRoute.js
+- E:\Dummy Projects\pro13feb\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:985:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:833:27)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\Dummy Projects\pro13feb\src\service\email\emailTemp.js:2:16)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\Dummy Projects\pro13feb\src\api\user\userController.js:11:19)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\Dummy Projects\pro13feb\src\api\user\userRoute.js:4:24)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "E:\\Dummy Projects\\pro13feb\\src\\service\\email\\emailTemp.js",
+      "E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userController.js",
+      "E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userRoute.js",
+      "E:\\Dummy Projects\\pro13feb\\app.js"
+    ]
+  },
+  "stack": "Error: Cannot find module '../../../../logger'\nRequire stack:\n- E:\\Dummy Projects\\pro13feb\\src\\service\\email\\emailTemp.js\n- E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userController.js\n- E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userRoute.js\n- E:\\Dummy Projects\\pro13feb\\app.js\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:985:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:833:27)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\Dummy Projects\\pro13feb\\src\\service\\email\\emailTemp.js:2:16)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userController.js:11:19)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userRoute.js:4:24)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)",
+  "exception": true,
+  "date": "Thu Feb 16 2023 23:48:59 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 2856,
+    "uid": null,
+    "gid": null,
+    "cwd": "E:\\Dummy Projects\\pro13feb",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v16.18.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "E:\\Dummy Projects\\pro13feb\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 65581056,
+      "heapTotal": 56291328,
+      "heapUsed": 25994112,
+      "external": 21003583,
+      "arrayBuffers": 18405396
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 3464
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 985,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 833,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "E:\\Dummy Projects\\pro13feb\\src\\service\\email\\emailTemp.js",
+      "function": null,
+      "line": 2,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1155,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 868,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userController.js",
+      "function": null,
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1155,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 868,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 24,
+      "file": "E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userRoute.js",
+      "function": null,
+      "line": 4,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1155,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
+16-02-2023 11:49:42 PM error: uncaughtException: Cannot find module '../../../../logger'
+Require stack:
+- E:\Dummy Projects\pro13feb\src\service\email\email.js
+- E:\Dummy Projects\pro13feb\src\service\email\emailTemp.js
+- E:\Dummy Projects\pro13feb\src\api\user\userController.js
+- E:\Dummy Projects\pro13feb\src\api\user\userRoute.js
+- E:\Dummy Projects\pro13feb\app.js
+Error: Cannot find module '../../../../logger'
+Require stack:
+- E:\Dummy Projects\pro13feb\src\service\email\email.js
+- E:\Dummy Projects\pro13feb\src\service\email\emailTemp.js
+- E:\Dummy Projects\pro13feb\src\api\user\userController.js
+- E:\Dummy Projects\pro13feb\src\api\user\userRoute.js
+- E:\Dummy Projects\pro13feb\app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:985:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:833:27)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\Dummy Projects\pro13feb\src\service\email\email.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\Dummy Projects\pro13feb\src\service\email\emailTemp.js:3:15)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:868:12)
+    at Module.require (node:internal/modules/cjs/loader:1057:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (E:\Dummy Projects\pro13feb\src\api\user\userController.js:11:19)
+    at Module._compile (node:internal/modules/cjs/loader:1155:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
+    at Module.load (node:internal/modules/cjs/loader:1033:32) {
+  "error": {
+    "code": "MODULE_NOT_FOUND",
+    "requireStack": [
+      "E:\\Dummy Projects\\pro13feb\\src\\service\\email\\email.js",
+      "E:\\Dummy Projects\\pro13feb\\src\\service\\email\\emailTemp.js",
+      "E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userController.js",
+      "E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userRoute.js",
+      "E:\\Dummy Projects\\pro13feb\\app.js"
+    ]
+  },
+  "stack": "Error: Cannot find module '../../../../logger'\nRequire stack:\n- E:\\Dummy Projects\\pro13feb\\src\\service\\email\\email.js\n- E:\\Dummy Projects\\pro13feb\\src\\service\\email\\emailTemp.js\n- E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userController.js\n- E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userRoute.js\n- E:\\Dummy Projects\\pro13feb\\app.js\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:985:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:833:27)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\Dummy Projects\\pro13feb\\src\\service\\email\\email.js:3:16)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\Dummy Projects\\pro13feb\\src\\service\\email\\emailTemp.js:3:15)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:868:12)\n    at Module.require (node:internal/modules/cjs/loader:1057:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userController.js:11:19)\n    at Module._compile (node:internal/modules/cjs/loader:1155:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1209:10)\n    at Module.load (node:internal/modules/cjs/loader:1033:32)",
+  "exception": true,
+  "date": "Thu Feb 16 2023 23:49:42 GMT+0530 (India Standard Time)",
+  "process": {
+    "pid": 4500,
+    "uid": null,
+    "gid": null,
+    "cwd": "E:\\Dummy Projects\\pro13feb",
+    "execPath": "C:\\Program Files\\nodejs\\node.exe",
+    "version": "v16.18.0",
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "E:\\Dummy Projects\\pro13feb\\app.js"
+    ],
+    "memoryUsage": {
+      "rss": 65703936,
+      "heapTotal": 56553472,
+      "heapUsed": 27944936,
+      "external": 21218299,
+      "arrayBuffers": 18576075
+    }
+  },
+  "os": {
+    "loadavg": [
+      0,
+      0,
+      0
+    ],
+    "uptime": 3508
+  },
+  "trace": [
+    {
+      "column": 15,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._resolveFilename",
+      "line": 985,
+      "method": "_resolveFilename",
+      "native": false
+    },
+    {
+      "column": 27,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 833,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 16,
+      "file": "E:\\Dummy Projects\\pro13feb\\src\\service\\email\\email.js",
+      "function": null,
+      "line": 3,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1155,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 868,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 15,
+      "file": "E:\\Dummy Projects\\pro13feb\\src\\service\\email\\emailTemp.js",
+      "function": null,
+      "line": 3,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1155,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    },
+    {
+      "column": 12,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._load",
+      "line": 868,
+      "method": "_load",
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.require",
+      "line": 1057,
+      "method": "require",
+      "native": false
+    },
+    {
+      "column": 18,
+      "file": "node:internal/modules/cjs/helpers",
+      "function": "require",
+      "line": 103,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 19,
+      "file": "E:\\Dummy Projects\\pro13feb\\src\\api\\user\\userController.js",
+      "function": null,
+      "line": 11,
+      "method": null,
+      "native": false
+    },
+    {
+      "column": 14,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._compile",
+      "line": 1155,
+      "method": "_compile",
+      "native": false
+    },
+    {
+      "column": 10,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module._extensions..js",
+      "line": 1209,
+      "method": ".js",
+      "native": false
+    },
+    {
+      "column": 32,
+      "file": "node:internal/modules/cjs/loader",
+      "function": "Module.load",
+      "line": 1033,
+      "method": "load",
+      "native": false
+    }
+  ]
+}
